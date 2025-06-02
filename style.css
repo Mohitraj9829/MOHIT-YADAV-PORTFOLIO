@@ -1,0 +1,164 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(pink, lightblue);
+
+}
+
+
+.face1{
+    position: absolute;
+    left: 20%;
+    filter: blur(5px);
+    z-index: 1;
+    
+}
+
+
+
+
+
+.face2{
+    position: absolute;
+    left: 30%;
+    z-index: 2;
+}
+
+.face3{
+    position: absolute;
+    left: 40%;
+    filter: blur(5px);
+   z-index: 1;
+  
+}
+
+h1{
+    font-family: "Rubik Mono One", monospace;
+  font-weight: 300;
+  font-size: 80px;
+ background: linear-gradient( rgb(25, 48, 48),rgb(239, 1, 248) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-style: normal;
+  position: absolute;
+    margin-top: 30px;
+    left: 27%;
+   
+}
+h2{
+     font-family: "Monoton", sans-serif;
+  font-weight: 400;
+   font-size: 80px;
+   background: linear-gradient( rgb(25, 48, 48),rgb(208, 105, 246) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+   position: absolute;
+    margin-top: 90px;
+    left: 25%;
+   
+}
+.contact{
+    position: absolute;
+    left: 8%;
+    margin-top: 595px;
+
+}
+button{
+    font-family: "Rubik Mono One", monospace;
+  font-weight: 200;
+   font-size: 15px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px 20px;
+    background: linear-gradient(rgb(254, 97, 251), rgb(80, 1, 86));
+}
+.fb_logo{
+   
+    height: 70px;
+    width: 85px;
+    position: absolute;
+    left: 20%;
+    margin-top: 585px;
+    transition: transform 0.2s;
+}
+.insta_logo{
+   
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 25%;
+    margin-top: 598px;
+    transition: transform .2s;
+}  
+ 
+.insta_logo:hover {
+     
+     transform: scale(1.5);
+    }
+
+@media screen and (max-width: 968px) {
+    
+    *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+    .container{
+        width: 150%;
+        height: 150vh;
+        
+        background: linear-gradient(pink, lightblue);
+        box-sizing: border-box;
+
+    }
+    .face1, .face2, .face3 {
+        position: absolute;
+        left: -13%;
+        top: 200px;
+        
+    }
+    h1{
+       
+        left: 5%;
+       top: 13%;
+        font-size: 25px;
+    }
+    h2 {
+        top: 10%;
+        left: 5%;
+        font-size: 60px;
+        
+    }
+
+    .contact {
+        left: 5%;
+        margin-top: 750px;
+
+    }
+    button {
+        
+        width: 120px;
+        height: 40px;
+    }
+    .insta_logo {
+        left: 45%;
+        top: 162px;
+
+    }
+    .fb_logo{
+        left: 75%;
+        top: 162px;
+    }
+   
+}
