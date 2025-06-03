@@ -105,6 +105,10 @@ button{
      
      transform: scale(1.5);
     }
+ .fb_logo:hover {
+     
+        transform: scale(1.5);
+        }
 
 @media screen and (max-width: 968px) {
     
